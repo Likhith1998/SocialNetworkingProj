@@ -1,0 +1,11 @@
+S.No		Feature					Input			Expected Output				Actual Output			Match
+1)	       username					likhith			fail					fail				true
+							likhithkatta		success					success				true
+							likhith777		success					success				true
+							likhith@sd		fail(no special char in usname)		fail				true
+2)		password				likhith777		success					success				true
+							likhith			fail					fail				true
+3)		emailId					only valid emails	success					success				true	
+
+4)		Date					only valid dates
+							(Strictly implements it) Success				Success				true			
